@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="furniture.css">
+</head>
+<body>
+    <div>
+    <side>
+    <ul>
+        <li>HOME</li>
+        <li>SHOP</li>
+        <li>MAGAZINE</li>
+    </ul>
+    <section>
+     <p>FILTER BY</p>
+     <select name="collection">
+         <option value="Collection1">Collection</option>
+         <option value="Collection2">Collection2</option>
+    </select>
+     <select name="color">
+         <option value="Color1">Color</option>
+         <option value="Color2">Color2</option>
+     </select>
+     <select name="Category">
+         <option value="Category1">Category</option>
+         <option value="Category2">Category2</option>
+    </select><br>
+    <label for="PriceRange">PriceRange</label>
+    <input  id="PriceRange" type="range" name="PriceRange" min="1000" max="10000+">
+    </section>
+    </side>
+    <main>
+        <section id="login">
+            <input type="search" name="search" value="living room">
+            <button>LOGIN</button> 
+        </section>
+        <div id="change">
+            <img id="imgredirect" src="images/furniture1.jpg"></img>
+         <article id="span">
+        <span onclick="changeimage()">
+        <img src="images/furniture2.jpg">
+        </span>
+        <span onclick="changeimage()">
+        <img src="images/furniture3.jpg">
+        </span>
+        <span onclick="changeimage()">
+        <img src="images/furniture4.jpg">
+        </span>
+        <span onclick="changeimage()">
+        <img src="images/furniture5.jpg">
+        </span>
+        </article>
+    </div>
+    </main>
+    </div>
+    <script src="furniture.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+side {
+    float:left;
+    width:25%;
+}
+li {
+    display:inline-block;
+    padding-right:8px;
+}
+section{
+    padding-left:39px;
+}  
+select {
+    display:block;
+    margin-bottom:10px;
+}
+main {
+    float:right;
+    width:75%;
+}
+img {
+    padding-bottom:30px;
+    margin-right:20px;
+}
+#login{
+    padding-left: 605px;
+}
+#imgredirect{
+    display:none;
+}
